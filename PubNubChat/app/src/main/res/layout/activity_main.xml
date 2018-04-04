@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/activity_main_coordinator_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_weight="0.97"
+        android:layout_height="wrap_content"
+        android:paddingBottom="0dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/chat_list_view"
+                android:transcriptMode="alwaysScroll"
+                android:divider="@null">
+            </ListView>
+
+    </LinearLayout>
+
+    <include
+        layout="@layout/type_message_area"
+        android:layout_width="match_parent"
+        android:layout_weight="0.03"
+        android:layout_height="wrap_content"
+        android:gravity="bottom" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/load_msg_progressBar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+
+</android.support.design.widget.CoordinatorLayout>

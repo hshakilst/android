@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Jessore Tourism</string>
+
+    <string name="welcome_text">Welcome to jessore tourism. Here you will find the most attractive
+        places you can plan a trip to. </string>
+
+    <string name="button_text">Let\'s go</string>
+
+    <string name="desc_dhopakhola">Dhopakhola village is situated in the Jessore Sadar Upozilla
+        and it positions with an honored of its valiant descendant of freedom war. A mass momentous 
+        in Dhopakhola approximately thirty people surrendered their survives aimed at the motherland. 
+        The aforementioned has an archive for the sacrifices entitled ‘Shaheed Smrity Pathagar’ and 
+        alternative one known as ‘Dhopakhola Cattra Maytri Pathagar’ recognized through the young, 
+        spirited and supreme body fluid, Md Momin Uddin, an innovator of them is an undergraduate 
+        of Business Studies Faculty from Dhaka University.</string>
+
+    <string name="desc_balia_vakutia">Village named Balia Vakutia is famed for its minor intertwining 
+        production (materialize), wherever Shari, Lounge, Gamcha and many more. Dresses are manufactured.</string>
+    
+    <string name="desc_rampur">Rampur village has turned out to be a tourist charm intended for its 
+        island-like appearance bordered by twofold rivers which are named Jhapa Bayor as well as 
+        Khajura Bayor. The Kopotakkho River tides over the place.</string>
+    
+    <string name="desc_abhaynagar">There a small village named Dhoolgaam once had a wonderful multifaceted 
+        of 17 Hindu sanctuaries but merely single remains currently. Most of the sanctuaries were damaged 
+        through the Bhairab River.</string>
+    
+    <string name="desc_sagardari">In Sagardari village of Jessore, the house of Michael Madhusudan Dutta 
+        is situated. Now it’s a museum. Visitors can visit here and can learn more about the great Bangladeshi poet.</string>
+    
+    <string name="desc_vaatnogor">In Vaatnogor, relics of eleven sanctuaries multifaceted, enthusiastic 
+        to Lord shiva’s period. It keeps the glorious past of Bangla.</string>
+    
+    <string name="desc_shahi_mosque">it is situated in Hamidpur village which is an illustration of
+        Muslim Sultani era. Visitors can come here and also can say their prayers.</string>
+
+    <string name="desc_imam_bara">It is an ancient building which was made by Hazi Muhammad Mohsin 
+        and it is situated beside the Dhaka-Khulna Highway.</string>
+    
+    <string name="desc_airport">Jessore airport is an international airport. Here foreigners can come from abroad.</string>
+    
+    <string name="desc_benapole">Benapole is a boundary city in Bangladesh, the furthermost frequently 
+        used border when roaming in the middle of Kolkata in addition to Dhaka. The Indian on the side is known as Haridaspur.</string>
+    
+    <string name="desc_mallinath">A terracotta inscription bearing the spitting image of Mallinath,
+        a woman tirthankar (saint) of the Jain religious conviction, was bring into being at the Embankment
+        of Dam Dam Peer in Manirampur Upazila which is 1800 years old.</string>
+</resources>

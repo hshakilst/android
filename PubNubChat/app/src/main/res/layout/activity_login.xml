@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.hshakilst.pubnubchat.LoginActivity"
+    android:id="@+id/activity_login_coordinator_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        android:gravity="center">
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:errorEnabled="true"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="0dp"
+            android:id="@+id/email_layout">
+            <android.support.design.widget.TextInputEditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/email_edit"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:hint="Email">
+
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            app:errorEnabled="true"
+            android:paddingRight="24dp"
+            android:paddingLeft="24dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="0dp"
+            android:id="@+id/password_layout">
+            <android.support.design.widget.TextInputEditText
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:id="@+id/password_edit"
+                android:padding="8dp"
+                android:textSize="20sp"
+                android:inputType="textPassword"
+                android:hint="Password">
+
+            </android.support.design.widget.TextInputEditText>
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="24dp"
+            android:id="@+id/login_btn"
+            android:text="Login"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/forgot_pass_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="@color/colorAccent"
+            android:text="Forgot password?"/>
+
+        <TextView
+            android:id="@+id/signup_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textAppearance="@color/colorAccent"
+            android:text="Don't have an account? Sign up"/>
+
+        <ProgressBar
+            android:id="@+id/signin_progressBar"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

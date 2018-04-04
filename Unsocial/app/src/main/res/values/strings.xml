@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Unsocial</string>
+
+    <string name="email">Email</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_the_most_unsocial">Welcome to the most UNSOCIAL social media app. There is just ONE requirement only. The requirement is you have to be a bitch ass unsocial individual to use this app.</string>
+</resources>

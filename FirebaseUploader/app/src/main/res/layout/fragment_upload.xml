@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="120dp"
+    android:paddingLeft="24dp"
+    android:paddingRight="24dp"
+    tools:context="com.example.hshakilst.firebaseuploader.NavDrawerActivity">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/file_name"
+        android:textSize="22sp"
+        android:padding="12dp"
+        android:textColor="@color/white"/>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/choose_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="Choose"
+        tools:ignore="HardcodedText" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/upload_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:padding="12dp"
+        android:text="Upload"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
+

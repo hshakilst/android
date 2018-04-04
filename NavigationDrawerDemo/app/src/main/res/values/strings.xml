@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NavigationDrawerDemo</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home Fragment</string>
+    <string name="back_up_fragment">Backup Fragment</string>
+    <string name="profile_fragment">Profile Fragment</string>
+</resources>
